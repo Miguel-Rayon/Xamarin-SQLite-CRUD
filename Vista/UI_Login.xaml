@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registros.Vista.UI_Login">
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="30">
+            <Entry Placeholder="Introduce tu Usuario" Keyboard="Email" x:Name="usuario"></Entry>
+            <Entry Placeholder="Introduce tu Contraseña" IsPassword="True" x:Name="contra"></Entry>
+            <Button BackgroundColor="DarkCyan" Text="Iniciar Sesion" TextColor="White" Clicked="btn_login"></Button>
+            <Button Text="Registrar" Clicked="btn_Registrar" ></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

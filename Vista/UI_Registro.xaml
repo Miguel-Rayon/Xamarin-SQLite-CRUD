@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registros.Vista.UI_Registro">
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="30">
+            <Label Text="Nombre: "></Label>
+            <Entry Placeholder="Introduce tu nombre" x:Name="Nombre"></Entry>
+            <Label Text="Usuario: "></Label>
+            <Entry Placeholder="Introduce tu Usuario" Keyboard="Email" x:Name="Usuario"></Entry>
+            <Label Text="Contraseña: "></Label>
+            <Entry Placeholder="Introduce tu Contraseña" IsPassword="True" x:Name="Contrasenia"></Entry>
+            <Button Text="Agregar" Clicked="btn_agregar" BackgroundColor="Azure"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

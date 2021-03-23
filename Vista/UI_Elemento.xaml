@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registros.Vista.UI_Elemento">
+    <ScrollView>
+        <StackLayout Spacing="10" Padding="10">
+            <Label x:Name="mensaje"></Label>
+            <Label Text="Nombre: "></Label>
+            <Entry x:Name="Nombre" ></Entry>
+            <Label Text="Usuario: "></Label>
+            <Entry x:Name="Usuario"  ></Entry>
+            <Label Text="Contraseña: "></Label>
+            <Entry x:Name="Contrasenia" ></Entry>
+            <Button Text="Actualizar" BackgroundColor="LawnGreen" Clicked="btn_actualizar"></Button>
+            <Button Text="Eliminar" BackgroundColor="Red" Clicked="btn_eliminar"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
